@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <h1> Hello, this is my second sample app</h1>
+      <h1> Hello, this is my second sample app!!</h1>
       <div>Jokes: {jokes.length}</div>
       {jokes.map((joke) => {
         let { id, title, description } = joke;
